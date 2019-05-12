@@ -1,0 +1,14 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
