@@ -5,45 +5,110 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Arimo:700|Open+Sans:400,400i,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <link rel="stylesheet" href="css/main.css">
+
+        <!-- Primary Meta Tags -->
+        <title>Steven Peralta - Web Developer</title>
+        <meta name="title" content="Steven Peralta - Web Developer">
+        <meta name="description" content="21 year old college student and fullstack web dev. All round fun guy.">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://stevenperalta.dev/">
+        <meta property="og:title" content="Steven Peralta - Web Developer">
+        <meta property="og:description" content="21 year old college student and fullstack web dev. All round fun guy.">
+        <meta property="og:image" content="">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://stevenperalta.dev/">
+        <meta property="twitter:title" content="Steven Peralta - Web Developer">
+        <meta property="twitter:description" content="21 year old college student and fullstack web dev. All round fun guy.">
+        <meta property="twitter:image" content="">
+
         <title>Steven Peralta - Web Developer</title>
     </head>
     <body>
         <div class="container mt-3">
-            <div class="card border-0 mb-3">
+            <div class="card border-0">
                 <div class="card-body">
                     <h1 class="display-3 text-center"><b>Steven Peralta</b></h1>
-                    <h5 class="text-muted text-center">Fullstack Web Dev &#8226; Austin, TX &#8226; <a href="mailto:steven@stevenperalta.dev">steven@stevenperalta.dev</a></h5>
+                    <h5 class="text-muted text-center">Fullstack Web Dev &#8226; Austin, TX &#8226; <a class="text-reset" href="mailto:steven@stevenperalta.dev">steven@stevenperalta.dev</a></h5>
+                </div>
+            </div>
+            <div class="card border-0">
+                <div class="card-body">
+                    <p class="text-center">
+                        <a class="btn btn-outline-dark" href="https://github.com/k9rosie/"><i class="fab fa-github"></i> Github</a>
+                        <a class="btn btn-outline-dark" href="https://linkedin.com/in/k9rosie"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a class="btn btn-outline-dark" href="https://open.spotify.com/user/k9rosie"><i class="fab fa-spotify"></i> Spotify</a>
+                        <a class="btn btn-outline-dark" href="https://www.last.fm/user/caninerosie"><i class="fab fa-lastfm-square"></i> Last.fm</a>
+                    </p>
                 </div>
             </div>
             <div class="card border-0">
                 <div class="card-body">
                     <h2>Bio</h2>
                     <hr />
-                    <p>21 year old college student and fullstack web dev</p>
+                    <p>21 year old college student and fullstack web dev. All round fun guy.</p>
                 </div>
             </div>
             <div class="card border-0">
                 <div class="card-body">
                     <h2>Projects</h2>
-                    <hr class="mb-2"/>
+                    <hr />
                     <h3>Waterloo Academy of Music</h3>
                     <p>
                         <b>Work in progress.</b>
                         A music news and review site, based around the music scene in Central Texas.
-                        Backend powered by <a href="https://www.django-rest-framework.org/">Django Rest Framework</a> with a <a href="https://reactjs.org/">React</a>+<a href="https://redux.js.org">Redux</a> powered frontend.
+                        Backend powered by <a href="https://www.django-rest-framework.org/">Django Rest Framework</a> with a React+Redux frontend.
                         API calls on the frontend are performed with <a href="https://www.npmjs.com/package/swagger-client">swagger-client</a>.
+                        Deployed to AWS Elastic Beanstalk.
+                    </p>
+                    <p>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/waterloo-frontend"><i class="fab fa-github"></i> Github (Frontend)</a>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/waterloo-backend"><i class="fab fa-github"></i> Github (Backend)</a>
+                        <button type="button" class="btn btn-outline-dark btn-sm" disabled><i class="fas fa-globe-americas"></i> Website</button>
                     </p>
                     <h3>Auraria</h3>
                     <p>
-                        <b>Work in progress.</b> A real-time multiplayer web game based on an Entity-Component-System paradigm.
-                            Backend powered by Node.js with entity data being handled by LokiJS.
-                            Real-time communication is performed with <a href="https://socket.io">socket.io</a></b>
+                        <b>Work in progress.</b> A real-time multiplayer RPG web game based on an <a href="https://en.wikipedia.org/wiki/Entity_component_system">Entity-Component-System</a> paradigm.
+                        Backend powered by <a href="https://nodejs.org/">Node.js</a> with entity data being handled by <a href="http://lokijs.org/">LokiJS</a>.
+                        Real-time communication is performed with <a href="https://socket.io">socket.io</a>.
+                    </p>
+                    <p>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/auraria-server"><i class="fab fa-github"></i> Github (Server)</a>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/auraria-client"><i class="fab fa-github"></i> Github (Client)</a>
+                        <button type="button" class="btn btn-outline-dark btn-sm" disabled><i class="fas fa-globe-americas"></i> Website</button>
                     </p>
                     <h3>Novswar</h3>
-                    <p>A music news and review site, based around the music scene in Central Texas.</p>
+                    <p>
+                        A monolithic <a href="https://hub.spigotmc.org/stash/projects/SPIGOT/repos/craftbukkit/browse">CraftBukkit</a> plugin designed to enable PvP gameplay for the popular sandbox game Minecraft.
+                        Includes SQL integration and an API to extend functionality through <i>gamemode</i> plugins.
+                    </p>
+                    <p>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/5Kow5Ws-8H4?rel=0"></iframe>
+                        </div>
+                    </p>
+                    <p>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/novswar"><i class="fab fa-github"></i> Github</a>
+                    </p>
                     <h3>Tweetbeat</h3>
-                    <p>A music news and review site, based around the music scene in Central Texas.</p>
+                    <p>
+                        A fun Node.js project written in 24 hours during the <a href="https://mlh-prime-southwest.devpost.com/">MLH Prime: Southwest Regional</a>.
+                        Watches a set Twitter hashtag for tweets and analyizes the mood from the hashtag and creates a melody dependant on the mood.
+                        Melodies are generated with using Markov chains and chord progressions.
+                        Utilizes <a href="https://expressjs.com/">express</a>, <a href="https://socket.io/">socket.io</a>, <a href="https://www.npmjs.com/package/twit">twit</a>, <a href="https://tonejs.github.io/">Tone.js</a>, and the <a href="https://www.ibm.com/watson/services/tone-analyzer/">Watson Tone Analyzer API</a>.
+                        Written by <a href="https://github.com/xanthehammer">Xanthe Hammer</a>, <a href="https://github.com/booksforever">Kathryn Gray</a>, and <a href="https://github.com/k9rosie">Steven Peralta</a>.
+                    </p>
+                    <p>
+                        <a class="btn btn-outline-dark btn-sm" href="https://github.com/k9rosie/tweetbeat"><i class="fab fa-github"></i> Github</a>
+                        <a class="btn btn-outline-dark btn-sm" href="https://devpost.com/software/tweetbeet"><i class="fas fa-code"></i> Devpost</a>
+                        <button type="button" class="btn btn-outline-dark btn-sm" disabled><i class="fas fa-globe-americas"></i> Try it out</button>
+
+                    </p>
                 </div>
             </div>
         </div>
