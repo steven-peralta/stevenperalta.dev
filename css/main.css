@@ -3,9 +3,20 @@ body {
     font-weight: normal;
 }
 
-h1 {
+h1, h2 {
     font-family: 'Arimo', sans-serif;
 }
+
+.display-3 {
+    font-size: 3rem;
+}
+
+@media (min-width: 576px) {
+    .display-3 {
+        font-size: 4.5rem;
+    }
+}
+
 
 .container {
     width: auto;
