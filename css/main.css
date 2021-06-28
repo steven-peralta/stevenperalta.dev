@@ -1,10 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: normal;
-}
-
-h1, h2, h4, h6 {
-    font-family: 'Arimo', sans-serif;
+    background-color: black;
 }
 
 .display-3 {
